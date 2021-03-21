@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
-import Aboutme from "./components/Aboutme";
+//import Aboutme from "./components/Aboutme";
 import Project from "./components/Project";
 
 function App() {

@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
-import Aboutme from "./components/Aboutme";
 import Project from "./components/Project";
+import Aboutme from "./components/Aboutme";
 
 function App() {
   return (

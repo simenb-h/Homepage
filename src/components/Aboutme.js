@@ -7,7 +7,7 @@ const Aboutme = () =>   {
     return (
     <div>
         <p>Simen Berg-Hansen</p>
-        <img width="25%" height="25%" border-radius="100px" src={image} alt="" />
+        <img width="25%" height="25%" border-radius="100" src={image} alt="" />
     </div>
     );
 }

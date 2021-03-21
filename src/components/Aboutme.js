@@ -1,13 +1,14 @@
 import React from 'react';
-import image from "./images/simen.jpg";
-
+import image from "./images/simen2.jpg";
+import './About.css';
 
 
 const Aboutme = () =>   {
     return (
-    <div>
-        <p>Simen Berg-Hansen</p>
-        <img width="25%" height="25%" border-radius="100" src={image} alt="" />
+    <div className="top">
+        <p className="title">Simen Berg-Hansen</p>
+        <p className="maintext">Studerer Ingenørvitenskap og IKT (4.klasse)</p>
+        <img src={image} alt="" />
     </div>
     );
 }
